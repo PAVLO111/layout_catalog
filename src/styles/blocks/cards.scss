@@ -1,25 +1,6 @@
-body {
-  margin: 0;
-  font-family: Roboto, sans-serif;
-}
-
-// img {
-//   width: 160px;
-//   height: 134px;
-//   margin: 32px 19px 0;
-// }
-
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .container {
   border: 2px solid blue;
-
-  // width: 944px;
-  // height: 862px;
 
   display: grid;
 
@@ -42,8 +23,6 @@ body {
     width: 160px;
     height: 134px;
     margin: 32px 19px 0;
-    // background-image: url(../images/imac.jpeg);
-    // background-size: cover;
   }
 
   &__name {
