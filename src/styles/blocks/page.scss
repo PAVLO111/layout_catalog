@@ -3,9 +3,24 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.main {
+header {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+main {
   margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(2, 408px);
+  gap: 48px 46px;
 }

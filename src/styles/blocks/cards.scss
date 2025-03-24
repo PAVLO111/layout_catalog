@@ -1,21 +1,8 @@
-
-.container {
-  border: 2px solid blue;
-
-  display: grid;
-
-  grid-template-columns: repeat(4, 200px);
-  grid-template-rows: repeat(2, 408px);
-  gap: 48px 46px;
-}
-
 .card {
   box-sizing: border-box;
   width: 200px;
   height: 408px;
   border: 1px solid $card-border-color;
-  border: 3px solid rgb(204, 42, 21);
-
   border-radius: 5px;
   background-color: #fff;
 
