@@ -18,9 +18,4 @@ main {
   align-items: center;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(4, 200px);
-  grid-template-rows: repeat(2, 408px);
-  gap: 48px 46px;
-}
+
