@@ -30,6 +30,15 @@
   border: 1px solid $card-border-color;
   border-radius: 5px;
   background-color: #fff;
+  transition: transform, 300ms;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  &:hover &__title {
+    color: #34568b;
+  }
 
   &__image {
     width: 160px;
@@ -37,12 +46,13 @@
     margin: 32px 19px 0;
   }
 
-  &__name {
+  &__title {
     margin: 36px 16px 0;
     color: #060b35;
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
+    transition-duration: 300ms;
   }
 
   &__code {
@@ -92,8 +102,7 @@
     background-color: $card-button-color;
     color: #fff;
     text-align: center;
-    transition-duration: 8s;
-
+    transition-duration: 300ms;
   }
 
   &__button:hover {
