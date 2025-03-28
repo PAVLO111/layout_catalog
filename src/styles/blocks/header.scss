@@ -1,7 +1,3 @@
-// * {
-//   box-sizing: border-box;
-// }
-
 a {
   text-decoration: none;
 }
@@ -11,6 +7,15 @@ a {
 }
 
 .nav {
+  &__list {
+    margin: 0;
+    margin-bottom: 1.5px;
+    padding: 0;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+  }
+
   &__item {
     margin: 0;
     padding: 0;
@@ -20,17 +25,9 @@ a {
     margin-right: 20px;
   }
 
-  &__list {
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
-    list-style: none;
-    display: flex;
-  }
-
   &__link {
     display: block;
-    padding: 23px 0;
+    padding: 22px 0;
     color: $text-black-color;
     font-weight: 500;
     font-size: 12px;
@@ -52,7 +49,7 @@ a {
   height: 4px;
   width: 37px;
   content: '';
-  bottom: 0.6%;
+  bottom: -2.6%;
   left: 0;
 
   background-color: $header-hover-color;
