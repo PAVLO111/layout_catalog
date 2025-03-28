@@ -36,10 +36,6 @@
     transform: scale(1.2);
   }
 
-  &:hover &__title {
-    color: #34568b;
-  }
-
   &__image {
     width: 160px;
     height: 134px;
@@ -53,6 +49,10 @@
     font-size: 12px;
     line-height: 18px;
     transition-duration: 300ms;
+  }
+
+  &:hover &__title {
+    color: #34568b;
   }
 
   &__code {
