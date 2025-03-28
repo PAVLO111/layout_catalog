@@ -25,12 +25,12 @@
 
 .card {
   box-sizing: border-box;
-  width: 200px;
-  height: 408px;
+  width: $card-width;
+  height: $card-height;
   border: 1px solid $card-border-color;
   border-radius: 5px;
   background-color: #fff;
-  transition: transform, 300ms;
+  transition: transform, $catalog-hover-time;
 
   &:hover {
     transform: scale(1.2);
@@ -44,11 +44,11 @@
 
   &__title {
     margin: 36px 16px 0;
-    color: #060b35;
+    color: $text-black-color;
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
-    transition-duration: 300ms;
+    transition-duration: $catalog-hover-time;
   }
 
   &:hover &__title {
@@ -59,7 +59,7 @@
     margin-top: 4px;
     margin-left: 16px;
     margin-bottom: 0;
-    color: #616070;
+    color: $text-gray-color;
     font-weight: 400;
     font-size: 10px;
     line-height: 14px;
@@ -75,7 +75,7 @@
 
     &-text {
       margin: 0;
-      color: #616070;
+      color: $text-gray-color;
       font-weight: 400;
       font-size: 12px;
       line-height: 18px;
@@ -83,7 +83,7 @@
 
     &-number {
       margin: 0;
-      color: #060b35;
+      color: $text-black-color;
       font-weight: 700;
       font-size: 16px;
       line-height: 18px;
@@ -102,7 +102,7 @@
     background-color: $card-button-color;
     color: #fff;
     text-align: center;
-    transition-duration: 300ms;
+    transition-duration: $catalog-hover-time;
   }
 
   &__button:hover {

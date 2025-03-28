@@ -31,19 +31,19 @@ a {
   &__link {
     display: block;
     padding: 23px 0;
-    color: #060b35;
+    color: $text-black-color;
     font-weight: 500;
     font-size: 12px;
-    transition-duration: 300ms;
+    transition-duration: $catalog-hover-time;
   }
 
   &__link:hover {
-    color: #00acdc;
+    color: $header-hover-color;
   }
 }
 
 .is-active {
-  color: #00acdc;
+  color: $header-hover-color;
   position: relative;
 }
 
@@ -55,6 +55,6 @@ a {
   bottom: 0.6%;
   left: 0;
 
-  background-color: #00acdc;
+  background-color: $header-hover-color;
   position: absolute;
 }
